@@ -26,14 +26,14 @@ void easy(void)
 {
      char table[9][9];
     //bu tablo kullanıcı girdisine göre açılacak-ilerde- ve bu kısımda da mayın ataması yapılaca
-
+    //bu kısma func.c fonksiyon olarak dahil edilecek
     for (int i = 0; i < 9; i++)
     {
         for (int j = 0; j < 9; j++)
         {
             table[i][j] = 'x';
         }
-    }
+    }   
     
 //mayınların rasgele yerleştirilmesi, kullancıdan girdi alınıp bu girdiye göre kimi hücrelerin komşudaki mayın sayısını yazar hale getirilecek
     for (int i = 0; i < 9; i++)
