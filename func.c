@@ -19,7 +19,7 @@ int main(void)
     {
         for (int j = 0; j < 9; j++)
         {
-            gtable[i][j] = NULL;
+            gtable[i][j] = 0;
         }
     }    
    int i, n,k,l;
